@@ -20,3 +20,8 @@ Responsive Design: The website is designed to be responsive, ensuring seamless b
 *JavaScript
 
 *GSAP for animations.
+
+##Sample Vedieo
+
+https://github.com/Abhi9765/Product-Designer-Frontend-project2/assets/138243988/60e8e432-40be-41bf-9ef0-ea908ae8eac0
+
