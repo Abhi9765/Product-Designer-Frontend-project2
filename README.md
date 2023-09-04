@@ -14,6 +14,9 @@ Responsive Design: The website is designed to be responsive, ensuring seamless b
 
 ## Technologies Used
 *HTML
+
 *CSS
+
 *JavaScript
-*GSAP for animations
+
+*GSAP for animations.
