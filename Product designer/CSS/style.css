@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+}
+#main {
+  width: 100%;
+}
+
+.first {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+/*navbar*/
+.nav {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  justify-content: space-between;
+  list-style: none;
+  font-size: 17px;
+  padding: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+}
+
+/*first main div*/
+.heading h1 {
+  color: cadetblue;
+  font-size: 6vw;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.heading #h1 {
+  margin-top: px;
+  display: flex;
+  margin-left: 70px;
+  margin-top: 90px;
+}
+
+.heading #h2 {
+  margin-left: 190px;
+}
+
+.h6 {
+  color: cadetblue;
+
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.small {
+  width: fit-content;
+}
+
+.small h6 {
+  text-align: right;
+  font-size: 1.5vw;
+}
+
+.smallheadings {
+  margin-top: 3vw;
+
+  text-align: right;
+  padding-right: 20px;
+}
+
+.smallheadings #h6 {
+  color: white;
+  font-size: 1.5vw;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.smallheadings h6 {
+  color: white;
+  font-size: 1.5vw;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.first_footer {
+  width: 100%;
+
+  margin-top: 11vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.first_footer a {
+  color: white;
+  text-transform: uppercase;
+}
+/*second main div*/
+.second {
+  width: 100%;
+  height: 100vh;
+
+  padding: 3vw 30px 0px 0px;
+}
+
+.elem {
+  width: 90%;
+  border-top: 1px;
+  border-bottom: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-style: solid;
+  color: darkgray;
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+
+.elem h1 {
+  padding: 2vw;
+  color: darkgray;
+  opacity: 1vw;
+  font-size: 4vw;
+}
+
+.elem h6 {
+  margin-top: 3vw;
+}
+
+/*third main div*/
+.third {
+  width: 99vw;
+  height: 100vh;
+
+  padding: 10vw;
+  display: flex;
+  gap: 10vw;
+  align-items: center;
+  padding-left: 30vw;
+}
+
+.third p {
+  color: white;
+  width: 25rem;
+}
+
+.third img {
+  width: 18vw;
+  height: 18vw;
+  border-radius: 50%;
+}
+
+.third a {
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  border-radius: 16px;
+  border: 1px solid white;
+}
+.subscribe {
+  width: 99vw;
+  display: flex;
+  padding-bottom: 230px;
+  padding-left: 10px;
+}
+#sub_a {
+  color: white;
+  text-transform: uppercase;
+}
+.third_footer1 {
+  width: 99vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.third_footer1 a {
+  color: darkgrey;
+  font-size: medium;
+  text-decoration: none;
+}
+
+body {
+  background-color: black;
+  font-family: "Signika Negative", sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.ball {
+  width: 20px;
+  height: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  border: 3px solid dodgerblue;
+  border-radius: 50%;
+  pointer-events: none;
+}
